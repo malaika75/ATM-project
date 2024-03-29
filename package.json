@@ -1,0 +1,24 @@
+{
+  "name": "mmyyy-atm-machine-project",
+  "version": "1.0.0",
+  "description": "This is ATM project",
+  "main": "index.js",
+  "type": "module",
+  "bin" : "index.js",
+  "publishConfig" : {
+  "access": "public"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malaika Zahid",
+  "license" : "MIT",
+
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
